@@ -1,0 +1,16 @@
+package com.javagentest.demo.Proxy.runtime;
+public interface AirCleaner {
+    void purify() ;
+public double getPM2_5() ;
+public void setPM2_5(double PM2_5);
+public String getId() ;
+public void setId(String id);
+public String getLName() ;
+public void setLName(String locationName) ;
+public String getDName() ;
+public void setDName(String deviceName);
+public String getStatus() ;
+public void setStatus(String status);
+public String getType();
+public void setType(String type);
+}
